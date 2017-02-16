@@ -1,0 +1,79 @@
+/* -- Estilos barra navegacion -- */
+header .menu-one {
+  background: #000;
+  display: flex;
+  justify-content: flex-end; }
+  header .menu-one li {
+    float: left;
+    padding: 10px 20px; }
+
+.navbar-inverse {
+  background-color: rgba(19, 18, 18, 0.85);
+  border-color: rgba(19, 18, 18, 0.85);
+  margin-top: 2rem;
+  padding: 15px 20px; }
+
+.navbar-nav > li > a {
+  color: #9d9d9d;
+  color: #fff;
+  font-size: 1.7rem;
+  border-bottom: 10px solid transparent; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #FFD300;
+  border-bottom: 10px solid #FFD300; }
+
+.navbar-toggle {
+  border-color: rgba(4, 133, 157, 0.26);
+  color: #04859D; }
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.4rem; }
+
+ul .dropdown-menu {
+  background: rgba(19, 18, 18, 0.85); }
+
+/* -- Estilos carrousel -- */
+.img-responsive {
+  width: 100vw;
+  height: 100vh; }
+
+.btn-info {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: #FFD300;
+  color: #FFD300; }
+
+.btn-info:hover {
+  background: #FFD300;
+  border-color: #FFD300; }
+
+.carousel-indicators li {
+  border: 1px solid #FFD300; }
+
+.carousel-indicators .active {
+  background: #FFD300; }
+
+/*Estilos marketing */
+.fa-credit-card-alt:before {
+  width: 140px;
+  height: 180px;
+  font-size: 100px;
+  padding: 40px 0;
+  color: #3914AF; }
+
+/* -- Estilos Footer -- */
+footer {
+  background-color: #000;
+  padding: 30px; }
+
+@media (min-width: 768px) {
+  .container .navbar-collapse {
+    display: flex !important;
+    justify-content: flex-end; } }
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    text-align: center; } }
+
+/*# sourceMappingURL=estilos.css.map */
